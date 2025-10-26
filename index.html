@@ -230,7 +230,7 @@
   <!-- Footnotes -->
   <p><sup>1</sup> General Motors R&D</p>
   <p><sup>2</sup> The Hebrew University of Jerusalem, Israel</p>
-  <p>Conference: <a href="https://bmvc2025.bmva.org/" target="_blank">BMVC 2025</a></p>
+  <p><a href="https://bmvc2025.bmva.org/" target="_blank">BMVC 2025</a></p>
 </div>
 
                   <div class="column has-text-centered">
@@ -276,25 +276,6 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -304,7 +285,9 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+We introduce Seed-to-Seed Translation (StS), a novel approach that combines GANs and diffusion models (DMs) for unpaired Image-to-Image Translation. Our approach is aimed at global translations of complex automotive scenes, where close adherence to the structure and semantics of the source image is essential. 
+We demonstrate that the semantic information encoded in the space of inverted latents (seeds) of a pretrained DM, dubbed as the *seed-space*, can be used for discriminative tasks, and leverage this information to perform image-to-image translation. Our method involves training an *sts-GAN*, an unpaired seed-to-seed translation model, based on CycleGAN. The translated seeds are used as the starting point for the DM's sampling process, while structure preservation is ensured using a ControlNet. We demonstrate the effectiveness of our approach for structure-preserving translation of complex automotive scenes, showcasing superior performance compared to existing GAN-based and diffusion-based methods. 
+In addition to advancing the SoTA in automotive scene translations, our approach offers a fresh perspective on leveraging the semantic information encoded within the seed-space of pretrained DMs for effective image editing and manipulation.
           </p>
         </div>
       </div>
