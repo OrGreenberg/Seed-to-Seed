@@ -326,49 +326,34 @@ In addition to advancing the SoTA in automotive scene translations, our approach
   </div>
 </section>
 <!-- End paper abstract -->
-
-<!-- ======================= -->
-<!-- StS-GAN Method Section -->
-<!-- ======================= -->
-<section class="section hero is-small">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-
-      <!-- Fixed Title (outside carousel) -->
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3" style="margin-bottom: 1.5rem;">StS-GAN Method</h2>
-        </div>
-      </div>
-
-      <!-- Carousel (working version) -->
-      <div id="results-carousel" class="carousel results-carousel" data-autoplay="true">
-        <div class="item-1">
-          <img src="static/images/flow1.png" alt="Step 1 visualization" loading="lazy"/>
-          <h2 class="subtitle has-text-centered">
-            <strong>Step 1:</strong> Inverting a source image to a meaningful “seed”.
-          </h2>
-        </div>
-
-        <div class="item-2">
-          <img src="static/images/flow2.png" alt="Step 2 visualization" loading="lazy"/>
-          <h2 class="subtitle has-text-centered">
-            <strong>Step 2:</strong> Translating the “seed” using a task-optimized GAN to achieve target-domain attributes.
-          </h2>
-        </div>
-
-        <div class="item-3">
-          <img src="static/images/flow3.png" alt="Step 3 visualization" loading="lazy"/>
-          <h2 class="subtitle has-text-centered">
-            <strong>Step 3:</strong> Sampling the manipulated “seed” with a spatially constrained diffusion model to generate the translated image.
-          </h2>
-        </div>
-      </div>
-
+<div id="results-carousel" class="carousel results-carousel" data-autoplay="true">
+  <div class="item-1">
+    <div class="box has-text-centered" style="border: 2px solid #ddd; border-radius: 12px; padding: 1rem;">
+      <img src="static/images/flow1.png" alt="Step 1 visualization" loading="lazy" style="margin-bottom: 1rem;"/>
+      <h2 class="subtitle has-text-centered" style="margin-bottom: 0;">
+        <strong>Step 1:</strong> Inverting a source image to a meaningful “seed”.
+      </h2>
     </div>
   </div>
-</section>
-<!-- End StS-GAN Method Section -->
+
+  <div class="item-2">
+    <div class="box has-text-centered" style="border: 2px solid #ddd; border-radius: 12px; padding: 1rem;">
+      <img src="static/images/flow2.png" alt="Step 2 visualization" loading="lazy" style="margin-bottom: 1rem;"/>
+      <h2 class="subtitle has-text-centered" style="margin-bottom: 0;">
+        <strong>Step 2:</strong> Translating the “seed” using a task-optimized GAN to achieve target-domain attributes.
+      </h2>
+    </div>
+  </div>
+
+  <div class="item-3">
+    <div class="box has-text-centered" style="border: 2px solid #ddd; border-radius: 12px; padding: 1rem;">
+      <img src="static/images/flow3.png" alt="Step 3 visualization" loading="lazy" style="margin-bottom: 1rem;"/>
+      <h2 class="subtitle has-text-centered" style="margin-bottom: 0;">
+        <strong>Step 3:</strong> Sampling the manipulated “seed” with a spatially constrained diffusion model to generate the translated image.
+      </h2>
+    </div>
+  </div>
+</div>
 
 <!-- ======================= -->
 <!-- Contact Info Section -->
@@ -380,7 +365,7 @@ In addition to advancing the SoTA in automotive scene translations, our approach
     </p>
     <p style="font-size: 18px;">
       <a href="mailto:or.greenberg@mail.huji.ac.il" style="color: #3273dc; text-decoration: none;">
-        or.greenberg@mail.huji.ac.il
+        or.greenberg@gm.com
       </a>
     </p>
   </div>
