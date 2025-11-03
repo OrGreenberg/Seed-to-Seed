@@ -327,168 +327,95 @@ In addition to advancing the SoTA in automotive scene translations, our approach
 </section>
 <!-- End paper abstract -->
 
-    <section class="section hero is-small">
+<!-- ======================= -->
+<!-- StS-GAN Method Section -->
+<!-- ======================= -->
+<section class="section hero is-small">
   <div class="hero-body">
     <div class="container is-max-desktop">
+
+      <!-- Fixed title above carousel -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">StS-GAN Method</h2>
+          <h2 class="title is-3" style="margin-bottom: 1.5rem;">StS-GAN Method</h2>
         </div>
       </div>
 
-      <!-- Carousel -->
+      <!-- Carousel (only images + captions) -->
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item">
-          <img src="static/images/flow1.png" alt="First research result visualization" loading="lazy"/>
+          <img src="static/images/flow1.png" alt="Step 1 visualization" loading="lazy" />
           <h2 class="subtitle has-text-centered">
             <strong>Step 1:</strong> Inverting a source image to a meaningful “seed”.
           </h2>
         </div>
 
         <div class="item">
-          <img src="static/images/flow2.png" alt="Second research result visualization" loading="lazy"/>
+          <img src="static/images/flow2.png" alt="Step 2 visualization" loading="lazy" />
           <h2 class="subtitle has-text-centered">
             <strong>Step 2:</strong> Translating the “seed” using a task-optimized GAN to achieve target-domain attributes.
           </h2>
         </div>
 
         <div class="item">
-          <img src="static/images/flow3.png" alt="Third research result visualization" loading="lazy"/>
+          <img src="static/images/flow3.png" alt="Step 3 visualization" loading="lazy" />
           <h2 class="subtitle has-text-centered">
-            <strong>Step 3:</strong> Sampling the manipulated “seed” with a spatially constrained
-
-<!-- 
-Youtube video
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      Paper video.
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            TODO: Replace with your YouTube video ID
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+            <strong>Step 3:</strong> Sampling the manipulated “seed” with a spatially constrained diffusion model to generate the translated image.
+          </h2>
         </div>
       </div>
+
     </div>
   </div>
 </section>
-End youtube video
--->
+<!-- End StS-GAN Method Section -->
 
-<!-- 
-Video carousel
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          TODO: Add poster image for better preview
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            Your video file here
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          TODO: Add poster image for better preview
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            Your video file here
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          TODO: Add poster image for better preview
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            Your video file here
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
+
+<!-- ======================= -->
+<!-- Contact Info Section -->
+<!-- ======================= -->
+<section class="section is-light" style="padding-top: 2rem; padding-bottom: 2rem;">
+  <div class="container has-text-centered">
+    <p style="font-size: 18px; margin-bottom: 0.5rem;">
+      <strong>Contact:</strong>
+    </p>
+    <p style="font-size: 18px;">
+      <a href="mailto:or.greenberg@mail.huji.ac.il" style="color: #3273dc; text-decoration: none;">
+        or.greenberg@mail.huji.ac.il
+      </a>
+    </p>
   </div>
 </section>
-End video carousel
--->
-
-<!-- 
-Paper poster
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      TODO: Replace with your poster PDF
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-End paper poster
--->
+<!-- End Contact Info Section -->
 
 
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-<!-- Contact Section -->
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h2 class="title is-4">Contact</h2>
-      <p class="is-size-5">
-        <span class="icon">
-          <i class="fas fa-envelope"></i>
-        </span>
-        <a href="mailto:or.greenberg@mail.huji.ac.il" style="font-weight:bold;">
-          or.greenberg@gm.com
-        </a>
-      </p>
-    </div>
-  </div>
-</section>
-<!-- End Contact Section -->
-
-
-  <footer class="footer">
+<!-- ======================= -->
+<!-- Footer Section -->
+<!-- ======================= -->
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
-        <div class="content">
-
+        <div class="content has-text-centered" style="font-size: 14px;">
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This page was built using the
+            <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">
+              Academic Project Page Template
+            </a>,
+            adapted from the
+            <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website — please link back in the footer.<br>
+            Licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+              CC BY-SA 4.0 License
+            </a>.
           </p>
-
         </div>
       </div>
     </div>
   </div>
 </footer>
+
 
 <!-- Statcounter tracking code -->
   
