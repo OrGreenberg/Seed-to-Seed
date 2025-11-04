@@ -327,7 +327,9 @@ In addition to advancing the SoTA in automotive scene translations, our approach
 </section>
 <!-- End paper abstract -->
 
-    
+
+<!-- Carousel -->
+   
 <style>
   /* Limit image width to 500px while keeping aspect ratio */
   #results-carousel img {
@@ -383,6 +385,98 @@ In addition to advancing the SoTA in automotive scene translations, our approach
   </div>
 </div>
 </section>
+
+<!-- End Of Carousel -->
+
+
+<!-- Qualitatve Results -->
+
+<style>
+  /* Limit image width to n-px while keeping aspect ratio */
+  #results-carousel img {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  /* Optional: center the images horizontally */
+  #results-carousel .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Qualitative Results</h2>
+      </div>
+    </div>
+
+<div id="results-carousel" class="carousel results-carousel" data-autoplay="true">
+  <div class="item-1">
+    <div class="box has-text-centered" style="border: 2px solid #ddd; border-radius: 12px; padding: 1rem;">
+      <img src="static/images/res_day2night.png" alt="Step 1 visualization" loading="lazy" style="margin-bottom: 1rem;" />
+      <h2 class="subtitle has-text-centered" style="margin-bottom: 0;">
+        Day-to-night translation dataset: BDD100K.
+      </h2>
+    </div>
+  </div>
+
+  <div class="item-2">
+    <div class="box has-text-centered" style="border: 2px solid #ddd; border-radius: 12px; padding: 1rem;">
+      <img src="static/images/res_weath_day.png" alt="Step 2 visualization" loading="lazy" style="margin-bottom: 1rem;" />
+      <h2 class="subtitle has-text-centered" style="margin-bottom: 0;">
+        Weather translation on daytime. Top: clear-to-foggy. Buttom: clear-to-rainy. dataset: BDD100k, DENSE.
+      </h2>
+    </div>
+  </div>
+
+  <div class="item-3">
+    <div class="box has-text-centered" style="border: 2px solid #ddd; border-radius: 12px; padding: 1rem;">
+      <img src="static/images/res_weath_night.png" alt="Step 2 visualization" loading="lazy" style="margin-bottom: 1rem;" />
+      <h2 class="subtitle has-text-centered" style="margin-bottom: 0;">
+        Weather translation on nighttime. Top: clear-to-foggy. Buttom: clear-to-rainy. dataset: BDD100k, DENSE.
+      </h2>
+    </div>
+  </div>
+
+  <div class="item-4">
+    <div class="box has-text-centered" style="border: 2px solid #ddd; border-radius: 12px; padding: 1rem;">
+      <img src="static/images/res_faces_gender.png" alt="Step 2 visualization" loading="lazy" style="margin-bottom: 1rem;" />
+      <h2 class="subtitle has-text-centered" style="margin-bottom: 0;">
+        Gender swap. Top: male-to-female. Buttom: female-to-male. dataset: FFHQ.
+      </h2>
+    </div>
+  </div>
+
+  <div class="item-5">
+    <div class="box has-text-centered" style="border: 2px solid #ddd; border-radius: 12px; padding: 1rem;">
+      <img src="static/images/res_faces_age.png" alt="Step 2 visualization" loading="lazy" style="margin-bottom: 1rem;" />
+      <h2 class="subtitle has-text-centered" style="margin-bottom: 0;">
+        Age manipulation. Top: to-younger. Buttom: to-older. dataset: FFHQ.
+      </h2>
+    </div>
+  </div>
+
+  <div class="item-6">
+    <div class="box has-text-centered" style="border: 2px solid #ddd; border-radius: 12px; padding: 1rem;">
+      <img src="static/images/res_pets.png" alt="Step 2 visualization" loading="lazy" style="margin-bottom: 1rem;" />
+      <h2 class="subtitle has-text-centered" style="margin-bottom: 0;">
+        Pet Translation Top: dog-to-cat. Buttom: cat-to-dog. dataset: AFHQ.
+      </h2>
+    </div>
+  </div>
+
+
+</div>
+</section>
+    
+<!-- End Of Qualitatve Results -->
 
 
 <!-- ======================= -->
