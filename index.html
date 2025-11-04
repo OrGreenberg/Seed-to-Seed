@@ -378,16 +378,60 @@ In addition to advancing the SoTA in automotive scene translations, our approach
 <!-- ======================= -->
 <!-- Contact Info Section -->
 <!-- ======================= -->
-<section class="section is-light" style="padding-top: 2rem; padding-bottom: 2rem;">
+<style>
+  .contact-section {
+    background: linear-gradient(to right, #f9f9f9, #f0f4ff);
+    padding: 2rem 1rem;
+  }
+
+  .contact-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    display: inline-block;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .contact-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+
+  .contact-card p {
+    font-size: 18px;
+    margin: 0.5rem 0;
+  }
+
+  .contact-card a {
+    color: #3273dc;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  .contact-card a:hover {
+    color: #1748a3;
+    text-decoration: underline;
+  }
+
+  .contact-icon {
+    font-size: 28px;
+    color: #3273dc;
+    margin-bottom: 0.5rem;
+  }
+</style>
+
+<section class="section contact-section">
   <div class="container has-text-centered">
-    <p style="font-size: 18px; margin-bottom: 0.5rem;">
-      <strong>Contact:</strong>
-    </p>
-    <p style="font-size: 18px;">
-      <a href="mailto:or.greenberg@mail.huji.ac.il" style="color: #3273dc; text-decoration: none;">
-        or.greenberg@gm.com
-      </a>
-    </p>
+    <div class="contact-card">
+      <div class="contact-icon">📧</div>
+      <p><strong>Contact</strong></p>
+      <p>
+        <a href="mailto:or.greenberg@gm.com">or.greenberg@gm.com</a>
+      </p>
+    </div>
   </div>
 </section>
 <!-- End Contact Info Section -->
